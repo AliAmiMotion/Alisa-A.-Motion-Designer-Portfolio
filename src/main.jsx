@@ -8,7 +8,7 @@ const software=[
 {name:'After Effects',years:'6 years',icon:'https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg',short:'Ae',x:-520},
 {name:'Adobe Photoshop',years:'10 years',icon:'https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg',short:'Ps',x:-312},
 {name:'Procreate',years:'5 years',customIcon:'procreate',short:'Pr',x:-104},
-{name:'Spine 2D',years:'2 years',customIcon:'spine',short:'Sp',x:104},
+{name:'Spine 2D',years:'4 years',customIcon:'spine',short:'Sp',x:104},
 {name:'Premiere Pro',years:'10 years',icon:'https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg',short:'Pr',x:312},
 {name:'Blender',years:'2 years',icon:'https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg',short:'Bl',x:520},
 ];
