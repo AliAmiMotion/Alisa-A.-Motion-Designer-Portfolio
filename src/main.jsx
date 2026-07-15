@@ -21,7 +21,8 @@ const portfolioProjects=[
 {number:'Project 05',title:'CD: Halloween Event Loop',description:'Made for app-store banner.',youtubeId:'JT9XXAZAyqw',href:'https://youtu.be/JT9XXAZAyqw',theme:'dark'},
 {number:'Project 06',title:'Unreleased Game Trailer',description:'An old, but very bold trailer of a game that had the misfortune of never being started.',youtubeId:'d8ndITfG0ZM',href:'https://youtu.be/d8ndITfG0ZM',theme:'light'},
 {number:'Project 07',title:'Chef&Friends: Rewards Screen',description:'Motion design, Spine Character Animation.',youtubeId:'njWW_FLEh3M',href:'https://www.youtube.com/watch?v=njWW_FLEh3M',theme:'dark'},
-{number:'Project 08',title:'CD: Halloween Storyline',description:'Motion design, Spine Character Animation, scene composing.',youtubeId:'Z6LCAZGzIms',href:'https://youtu.be/Z6LCAZGzIms',theme:'light'},
+{number:'Project 08',title:'CD: Halloween Storyline',description:'Motion design, Spine Character Animation, scene composing.',youtubeId:'Z6LCAZGzIms',href:'https://youtu.be/Z6LCAZGzIms',theme:'light'}
+];
 const gameplayProjects=[
 {youtubeId:'X08syxQLk68',href:'https://youtu.be/X08syxQLk68'},{youtubeId:'9ClWjn_1AAc',href:'https://youtu.be/9ClWjn_1AAc'},{youtubeId:'zV2lKstW72c',href:'https://youtu.be/zV2lKstW72c'},{youtubeId:'1xM5z06LN4g',href:'https://youtu.be/1xM5z06LN4g'},{youtubeId:'XrSs9RZB5c4',href:'https://youtube.com/shorts/XrSs9RZB5c4'},{youtubeId:'4dH3sQDIscY',href:'https://youtu.be/4dH3sQDIscY'},{youtubeId:'zDgwZ3qmTVw',href:'https://youtube.com/shorts/zDgwZ3qmTVw?feature=share'},{youtubeId:'8nVcRAIS8oA',href:'https://youtube.com/shorts/8nVcRAIS8oA'}];
 function clamp01(v){return Math.min(Math.max(v,0),1)}
