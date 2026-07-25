@@ -26,6 +26,12 @@ const projects = [
     href: "https://youtu.be/1xM5z06LN4g",
     tags: ["Hidden Object", "Spine Character Animation"]
   },
+   {
+      title: "Cooking Diary: Sushi Conveyor",
+  youtubeId: "u4Dl9cChNn4",
+  href: "https://youtu.be/u4Dl9cChNn4",
+  tags: ["Motion Design", "Character Animation Specifically for the task" "Conveyor Mechanics" "FX"]
+  },
   {
     title: "Chef & Friends: Cutting Steak",
     youtubeId: "XrSs9RZB5c4",
