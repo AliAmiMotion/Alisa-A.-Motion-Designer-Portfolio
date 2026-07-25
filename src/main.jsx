@@ -66,13 +66,13 @@ const projects = [
     title: "Chef & Friends: Rewards Screen",
     youtubeId: "njWW_FLEh3M",
     href: "https://www.youtube.com/watch?v=njWW_FLEh3M",
-    tags: ["Spine 2D", "Spine Character Animation"]
+    tags: ["Promo Banner", "Spine Character Animation"]
   },
   {
-    title: "Cooking Diary: Halloween Storyline",
-    youtubeId: "Z6LCAZGzIms",
-    href: "https://youtu.be/Z6LCAZGzIms",
-    tags: ["Storytelling", "Spine 2D", "Scene Composing"]
+    title: "CD: MERGE OPTIONS",
+     youtubeId: "ljQ0IYgtWto",
+  href: "https://youtu.be/ljQ0IYgtWto",
+    tags: ["Gameplay Creative", "Merge Mechanics"]
   },
   {
     title: "CD:Ice Cream Assemble",
@@ -105,10 +105,10 @@ const projects = [
     tags: ["AI INTRO, Gameplay Creative", "Hidden Object"]
   },
   {
-    title: "CD: MERGE OPTIONS",
-     youtubeId: "ljQ0IYgtWto",
-  href: "https://youtu.be/ljQ0IYgtWto",
-    tags: ["Gameplay Creative", "Merge Mechanics"]
+    title: "Cooking Diary: Halloween Storyline",
+    youtubeId: "Z6LCAZGzIms",
+    href: "https://youtu.be/Z6LCAZGzIms",
+    tags: ["Storytelling", "Spine 2D", "Scene Composing"]
   }
 ];
 function clamp01(v){return Math.min(Math.max(v,0),1)}
