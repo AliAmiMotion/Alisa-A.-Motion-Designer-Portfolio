@@ -4,20 +4,20 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "framer-motion": "11.18.2",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "framer-motion": "11.18.2"
   },
   "devDependencies": {
+    "vite": "5.4.14",
     "@vitejs/plugin-react": "4.3.4",
-    "autoprefixer": "10.4.20",
-    "postcss": "8.5.3",
     "tailwindcss": "3.4.17",
-    "vite": "5.4.14"
+    "postcss": "8.4.49",
+    "autoprefixer": "10.4.20"
   }
 }
