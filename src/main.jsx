@@ -26,12 +26,6 @@ const projects = [
     href: "https://youtu.be/1xM5z06LN4g",
     tags: ["Hidden Object", "Spine Character Animation"]
   },
-   {
-      title: "Cooking Diary: Sushi Conveyor",
-  youtubeId: "u4Dl9cChNn4",
-  href: "https://youtu.be/u4Dl9cChNn4",
-  tags: ["Motion Design", "Character Animation Specifically for the task" "Conveyor Mechanics" "FX"]
-  },
   {
     title: "Chef & Friends: Cutting Steak",
     youtubeId: "XrSs9RZB5c4",
@@ -115,6 +109,12 @@ const projects = [
     youtubeId: "Z6LCAZGzIms",
     href: "https://youtu.be/Z6LCAZGzIms",
     tags: ["Storytelling", "Spine 2D", "Scene Composing"]
+  },
+  {
+    title: "Cooking Diary: Sushi Conveyor",
+    youtubeId: "u4Dl9cChNn4",
+    href: "https://youtu.be/u4Dl9cChNn4",
+    tags: ["Motion Design", "Character Animation Specifically for the task" "Conveyor Mechanics" "FX"]
   }
 ];
 function clamp01(v){return Math.min(Math.max(v,0),1)}
