@@ -114,7 +114,7 @@ const projects = [
     title: "Cooking Diary: Sushi Conveyor",
     youtubeId: "u4Dl9cChNn4",
     href: "https://youtu.be/u4Dl9cChNn4",
-    tags: ["Motion Design", "Character Animation Specifically for the task" "Conveyor Mechanics" "FX"]
+    tags: ["Motion Design", "Character Animation Specifically for the task", "Conveyor Mechanics", "FX"]
   }
 ];
 function clamp01(v){return Math.min(Math.max(v,0),1)}
