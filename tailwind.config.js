@@ -1,1 +1,1 @@
-export default { content:["./index.html","./src/**/*.{js,jsx,ts,tsx}"], theme:{extend:{}}, plugins:[] };
+{"scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","react":"latest","react-dom":"latest","framer-motion":"latest"},"devDependencies":{"tailwindcss":"latest","postcss":"latest","autoprefixer":"latest"}}
