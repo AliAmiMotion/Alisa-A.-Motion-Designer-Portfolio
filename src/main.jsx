@@ -22,8 +22,8 @@ const projects = [
   },
   {
     title: "Seekers Notes: Candle Search",
-   youtubeId: "JT9XXAZAyqw",
-    href: "https://youtu.be/JT9XXAZAyqw",
+   youtubeId: "1xM5z06LN4g",
+    href: "https://youtu.be/1xM5z06LN4g",
     tags: ["Hidden Object", "Character Animation"]
   },
   {
