@@ -22,14 +22,14 @@ const projects = [
   },
   {
     title: "Seekers Notes: Candle Search",
-    youtubeId: "9ClWjn_1AAc",
-    href: "https://youtu.be/9ClWjn_1AAc",
+   youtubeId: "JT9XXAZAyqw",
+    href: "https://youtu.be/JT9XXAZAyqw",
     tags: ["Hidden Object", "Character Animation"]
   },
   {
     title: "Chef & Friends: Cutting Steak",
-    youtubeId: "JT9XXAZAyqw",
-    href: "https://youtu.be/JT9XXAZAyqw",
+    youtubeId: "XrSs9RZB5c4",
+    href: "https://youtube.com/shorts/XrSs9RZB5c4",
     tags: ["Character Animation", "Cooking Simulation"]
   },
   {
@@ -82,14 +82,14 @@ const projects = [
   },
   {
     title: "Gameplay Creative 02",
-    youtubeId: "1xM5z06LN4g",
-    href: "https://youtu.be/1xM5z06LN4g",
+   youtubeId: "9ClWjn_1AAc",
+    href: "https://youtu.be/9ClWjn_1AAc",
     tags: ["Gameplay Creative", "Motion Design"]
   },
   {
     title: "Gameplay Creative 03",
-    youtubeId: "XrSs9RZB5c4",
-    href: "https://youtube.com/shorts/XrSs9RZB5c4",
+   youtubeId: "JT9XXAZAyqw",
+    href: "https://youtu.be/JT9XXAZAyqw",
     tags: ["Gameplay Creative", "Short-form"]
   },
   {
