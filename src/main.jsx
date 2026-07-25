@@ -18,19 +18,19 @@ const projects = [
     title: "Cooking Diary: Ramen Shop",
     youtubeId: "zV2lKstW72c",
     href: "https://youtu.be/zV2lKstW72c",
-    tags: ["3D Modeling", "3D Animation", "Character Animation"]
+    tags: ["3D Modeling", "3D Animation", "Spine Character Animation"]
   },
   {
     title: "Seekers Notes: Candle Search",
    youtubeId: "1xM5z06LN4g",
     href: "https://youtu.be/1xM5z06LN4g",
-    tags: ["Hidden Object", "Character Animation"]
+    tags: ["Hidden Object", "Spine Character Animation"]
   },
   {
     title: "Chef & Friends: Cutting Steak",
     youtubeId: "XrSs9RZB5c4",
     href: "https://youtube.com/shorts/XrSs9RZB5c4",
-    tags: ["Character Animation", "Cooking Simulation"]
+    tags: ["Spine Character Animation", "Cooking Simulation"]
   },
   {
     title: "Cooking Diary: Battle of Restaurants",
@@ -48,7 +48,7 @@ const projects = [
     title: "Cooking Diary: Customization Power",
     youtubeId: "zpXgapV80kI",
     href: "https://youtu.be/zpXgapV80kI",
-    tags: ["UI Animation", "Character Animation", "Motion Design"]
+    tags: ["UI Animation", "Spine Character Animation", "Motion Design"]
   },
   {
     title: "Seekers Notes: Possessed by Darkness",
@@ -66,7 +66,7 @@ const projects = [
     title: "Chef & Friends: Rewards Screen",
     youtubeId: "njWW_FLEh3M",
     href: "https://www.youtube.com/watch?v=njWW_FLEh3M",
-    tags: ["Spine 2D", "Character Animation"]
+    tags: ["Spine 2D", "Spine Character Animation"]
   },
   {
     title: "Cooking Diary: Halloween Storyline",
@@ -75,40 +75,40 @@ const projects = [
     tags: ["Storytelling", "Spine 2D", "Scene Composing"]
   },
   {
-    title: "Gameplay Creative 01",
+    title: "CD:Ice Cream Assemble",
     youtubeId: "X08syxQLk68",
     href: "https://youtu.be/X08syxQLk68",
     tags: ["Gameplay Creative", "Motion Design"]
   },
   {
-    title: "Gameplay Creative 02",
+    title: "CF:Choose the Owner",
    youtubeId: "BwDWaXMRIng",
   href: "https://youtu.be/BwDWaXMRIng",
-    tags: ["Gameplay Creative", "Motion Design"]
+    tags: ["Gameplay Creative", "Spine Character Animation"]
   },
   {
-    title: "Gameplay Creative 03",
+    title: "CD:Sausage Assembly",
    youtubeId: "FLk4qtvdHPM",
   href: "https://youtu.be/FLk4qtvdHPM",
-    tags: ["Gameplay Creative", "Short-form"]
+    tags: ["Gameplay Creative", "Simulation"]
   },
   {
-    title: "Gameplay Creative 04",
+    title: "SN:Missing Girl",
     youtubeId: "4dH3sQDIscY",
     href: "https://youtu.be/4dH3sQDIscY",
-    tags: ["Gameplay Creative", "Motion Design"]
+    tags: ["Gameplay Creative", "Hidden Object"]
   },
   {
-    title: "Gameplay Creative 05",
+    title: "SN:Dinosaur Eggs",
     youtubeId: "zDgwZ3qmTVw",
     href: "https://youtube.com/shorts/zDgwZ3qmTVw?feature=share",
-    tags: ["Gameplay Creative", "Short-form"]
+    tags: ["AI INTRO, Gameplay Creative", "Hidden Object"]
   },
   {
-    title: "Gameplay Creative 06",
+    title: "CD: MERGE OPTIONS",
      youtubeId: "ljQ0IYgtWto",
   href: "https://youtu.be/ljQ0IYgtWto",
-    tags: ["Gameplay Creative", "Short-form"]
+    tags: ["Gameplay Creative", "Merge Mechanics"]
   }
 ];
 function clamp01(v){return Math.min(Math.max(v,0),1)}
