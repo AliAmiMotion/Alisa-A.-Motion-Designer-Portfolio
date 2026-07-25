@@ -82,14 +82,14 @@ const projects = [
   },
   {
     title: "Gameplay Creative 02",
-   youtubeId: "9ClWjn_1AAc",
-    href: "https://youtu.be/9ClWjn_1AAc",
+   youtubeId: "BwDWaXMRIng",
+  href: "https://youtu.be/BwDWaXMRIng",
     tags: ["Gameplay Creative", "Motion Design"]
   },
   {
     title: "Gameplay Creative 03",
-   youtubeId: "JT9XXAZAyqw",
-    href: "https://youtu.be/JT9XXAZAyqw",
+   youtubeId: "FLk4qtvdHPM",
+  href: "https://youtu.be/FLk4qtvdHPM",
     tags: ["Gameplay Creative", "Short-form"]
   },
   {
@@ -106,8 +106,8 @@ const projects = [
   },
   {
     title: "Gameplay Creative 06",
-    youtubeId: "8nVcRAIS8oA",
-    href: "https://youtube.com/shorts/8nVcRAIS8oA",
+     youtubeId: "ljQ0IYgtWto",
+  href: "https://youtu.be/ljQ0IYgtWto",
     tags: ["Gameplay Creative", "Short-form"]
   }
 ];
