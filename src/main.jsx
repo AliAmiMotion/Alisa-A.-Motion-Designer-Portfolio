@@ -146,7 +146,7 @@ function Site(){const [softwareProgress,setSoftwareProgress]=useState(0),[skills
 >
   <div className="relative mx-auto max-w-7xl">
     <a
-      href="YOUR_SPINE_DRIVE_LINK"
+      href="https://drive.google.com/drive/u/7/folders/1VTiydCzLTK_Robf8_qCErtxcNS0yuDSn"
       target="_blank"
       rel="noreferrer"
       className="group relative flex overflow-hidden border border-black bg-[#111] px-8 py-8 text-[#f4f1e9] shadow-[8px_8px_0_#f4f1e9] transition-all duration-500 hover:-translate-y-1"
@@ -187,7 +187,7 @@ function Site(){const [softwareProgress,setSoftwareProgress]=useState(0),[skills
             <InlineSoftwareLogo type="spine" />
           </div>
 
-          <span>SPINE SPECIFIC PORTFOLIO</span>
+          <span>SPINE HIGHLIGHT PORTFOLIO</span>
         </h3>
 
         <p className="mt-5 max-w-3xl text-lg text-white/65">
