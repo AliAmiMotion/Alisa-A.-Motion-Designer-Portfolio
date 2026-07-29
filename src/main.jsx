@@ -191,9 +191,7 @@ function Site(){const [softwareProgress,setSoftwareProgress]=useState(0),[skills
         </h3>
 
         <p className="mt-5 max-w-3xl text-lg text-white/65">
-          Complete collection of Spine 2D character animation, production
-          work, rigs, gameplay animation and technical setups.
-        </p>
+          Most complicated animations separated by the rest in GD. Cut, rigged and animated by me.
       </div>
 
       <div className="relative z-10 ml-auto flex items-end">
