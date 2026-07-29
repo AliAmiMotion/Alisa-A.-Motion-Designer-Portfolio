@@ -193,6 +193,7 @@ function Site(){const [softwareProgress,setSoftwareProgress]=useState(0),[skills
         <p className="mt-5 max-w-3xl text-lg text-white/65">
           Most complicated animations separated by the rest in GD.
           Cut, rigged and animated by me.
+        </p>
       </div>
 
       <div className="relative z-10 ml-auto flex items-end">
