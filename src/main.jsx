@@ -140,6 +140,70 @@ function Site(){const [softwareProgress,setSoftwareProgress]=useState(0),[skills
 <section id="top-skills-section" className="relative min-h-screen overflow-hidden px-5 py-24 md:px-12 md:py-32"><div className="relative mx-auto max-w-6xl text-center"><p className="font-mono text-xs uppercase tracking-[0.35em] text-black/60">05 / Core strengths</p><h2 className="mt-6 text-[17vw] font-black uppercase leading-[0.75] tracking-[-0.1em] md:text-[8.5rem]">TOP SKILLS</h2><p className="mx-auto mt-6 max-w-xl text-lg font-medium leading-tight tracking-[-0.04em] text-black/65 md:text-2xl">A focused set of creative and technical strengths I bring into every project.</p></div><ul id="top-skills-list" className="relative mx-auto mt-16 max-w-5xl md:mt-20">{topSkills.map((skill,i)=><TopSkillItem key={skill} skill={skill} index={i} progress={skillsProgress}/>)}</ul></section>
 <section id="experience-section" className="relative overflow-hidden px-5 py-24 md:px-12 md:py-32"><div className="relative mx-auto max-w-7xl"><div className="flex items-end justify-between gap-8 border-b border-black pb-8"><div><p className="font-mono text-xs uppercase tracking-[0.35em] text-black/60">06 / Career path</p><h2 className="mt-5 text-[18vw] font-black uppercase leading-[0.74] tracking-[-0.1em] md:text-[10rem]">EXPERIENCE</h2></div><p className="max-w-md text-right text-lg font-medium leading-tight tracking-[-0.04em] text-black/65 md:text-2xl">Professional experience across GameDev, advertising and animation production.</p></div><div className="mt-14 space-y-6"><Experience title="Mytona" date="2024 — Present" dark={false}/><Experience title="Green Grey" date="2022 — 2024" dark/><div className="grid gap-6 md:grid-cols-2"><MiniExperience title="AppQuantum" date="2021 — 2022"/><MiniExperience title="Skywaylab" date="2020 — 2022"/></div></div></div></section>
 <section id="portfolio-section" className="relative min-h-[100vh] overflow-hidden px-5 py-24 md:px-12 md:py-32"><div className="relative mx-auto max-w-7xl"><div className="flex items-end justify-between gap-8 border-b border-black pb-8"><div><p className="font-mono text-xs uppercase tracking-[0.35em] text-black/60">07 / Selected work</p><h2 className="mt-5 text-[18vw] font-black uppercase leading-[0.74] tracking-[-0.1em] md:text-[10rem]">PORTFOLIO</h2></div><div className="max-w-xl text-right"><p className="text-lg font-medium leading-tight tracking-[-0.04em] text-black/65 md:text-2xl">A selection of motion design, character animation, 3D modeling and animation, gameplay creatives, trailers and visual storytelling.</p></div></div><SectionTitle num="Selected Projects" title="CREATIVE WORK"/><p className="mb-10 max-w-5xl text-base font-normal leading-relaxed tracking-[-0.01em] text-black md:text-xl">Motion design, character animation, 3D modeling and animation, gameplay simulations, trailers and visual storytelling presented together in one unified gallery.</p><div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">{projects.map(p=><ProjectCard key={p.youtubeId} project={p}/>)}</div></div></section>
+<section
+  id="spine-portfolio-section"
+  className="relative overflow-hidden px-5 pt-8 pb-10 md:px-12 md:pt-12 md:pb-14"
+>
+  <div className="relative mx-auto max-w-7xl">
+    <a
+      href="YOUR_SPINE_DRIVE_LINK"
+      target="_blank"
+      rel="noreferrer"
+      className="group relative flex overflow-hidden border border-black bg-[#111] px-8 py-8 text-[#f4f1e9] shadow-[8px_8px_0_#f4f1e9] transition-all duration-500 hover:-translate-y-1"
+    >
+
+      {/* Huge background Spine logo */}
+      <div className="pointer-events-none absolute right-[-60px] top-1/2 -translate-y-1/2 opacity-[0.07]">
+        <svg
+          width="320"
+          height="320"
+          viewBox="0 0 100 100"
+          fill="none"
+        >
+          <path
+            d="M32 10 C42 12 57 10 66 9 C72 8 78 11 78 17 C79 25 72 31 62 31 C51 31 40 28 32 25 C24 22 23 12 32 10Z"
+            fill="white"
+          />
+          <path
+            d="M34 39 C44 41 55 40 64 39 C70 39 75 43 75 50 C75 57 68 62 59 62 C49 62 40 60 33 57 C26 54 26 41 34 39Z"
+            fill="white"
+          />
+          <path
+            d="M43 69 C51 69 58 67 65 66 C70 66 74 69 74 76 C74 82 68 87 59 87 C51 87 45 85 41 82 C36 78 37 70 43 69Z"
+            fill="white"
+          />
+        </svg>
+      </div>
+
+      <div className="relative z-10">
+        <div className="font-mono text-xs uppercase tracking-[0.35em] text-white/40">
+          08 / Specialized Portfolio
+        </div>
+
+        <h3 className="mt-4 flex items-center gap-4 text-4xl font-black uppercase leading-[0.9] tracking-[-0.06em] md:text-6xl">
+
+          {/* Spine icon */}
+          <div className="h-10 w-10 shrink-0">
+            <InlineSoftwareLogo type="spine" />
+          </div>
+
+          <span>SPINE SPECIFIC PORTFOLIO</span>
+        </h3>
+
+        <p className="mt-5 max-w-3xl text-lg text-white/65">
+          Complete collection of Spine 2D character animation, production
+          work, rigs, gameplay animation and technical setups.
+        </p>
+      </div>
+
+      <div className="relative z-10 ml-auto flex items-end">
+        <div className="border border-white/25 px-6 py-4 font-mono text-xs uppercase tracking-[0.25em] transition-all duration-300 group-hover:bg-white group-hover:text-black">
+          Open Google Drive →
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
 <section id="old-portfolio-section" className="relative overflow-hidden px-5 pt-8 pb-10 md:px-12 md:pt-12 md:pb-14"><div className="relative mx-auto max-w-7xl"><a href="https://drive.google.com/drive/folders/1eJxQ1n1IL4IleNW6Bv7vhXjcJmW-WHA5?usp=drive_link" target="_blank" rel="noreferrer" className="group flex flex-col gap-5 border border-black bg-[#f4f1e9] px-6 py-6 shadow-[8px_8px_0_#111] transition-all duration-500 hover:-translate-y-1 md:flex-row md:items-center md:justify-between md:px-8"><div><div className="font-mono text-xs uppercase tracking-[0.35em] text-black/45">08 / Archive</div><h3 className="mt-3 text-3xl font-black uppercase leading-[0.9] tracking-[-0.06em] md:text-5xl">OLD PORTFOLIO</h3><p className="mt-3 text-base font-medium tracking-[-0.02em] text-black/60 md:text-lg">Earlier work archive available on Google Drive.</p></div><div className="inline-flex items-center gap-3 border border-black px-5 py-3 font-mono text-xs uppercase tracking-[0.25em] transition-colors group-hover:bg-black group-hover:text-[#f4f1e9]">Open Google Drive →</div></a></div></section>
 <section id="languages-contact-section" className="relative overflow-hidden px-5 py-24 md:px-12 md:py-32"><div className="relative mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.9fr_1.1fr]"><div className="group relative overflow-hidden border border-black bg-[#f4f1e9] p-8 shadow-[10px_10px_0_#111] transition-transform duration-500 hover:-translate-y-1 md:p-10"><div className="absolute bottom-8 right-8 z-10 h-24 w-24 opacity-35 md:h-32 md:w-32"><Globe/></div><p className="font-mono text-xs uppercase tracking-[0.35em] text-black/55">09 / Languages</p><h2 className="mt-5 text-[10vw] font-black uppercase leading-[0.78] tracking-[-0.08em] md:text-[4.8rem] lg:text-[5.2rem]">LANGUAGES</h2><div className="mt-12 space-y-8 pr-0 md:pr-28"><div><h3 className="text-3xl font-black uppercase tracking-[-0.055em] md:text-4xl">English</h3><p className="mt-2 text-lg font-medium tracking-[-0.03em] text-black/60 md:text-xl">FLUENT</p></div><div className="h-px w-full bg-black/20"/><div><h3 className="text-3xl font-black uppercase tracking-[-0.055em] md:text-4xl">Russian</h3><p className="mt-2 text-lg font-medium tracking-[-0.03em] text-black/60 md:text-xl">Native / bilingual proficiency</p></div></div></div><div className="relative overflow-hidden border border-black bg-[#111] p-8 text-[#f4f1e9] shadow-[10px_10px_0_#f4f1e9] md:p-10"><p className="font-mono text-xs uppercase tracking-[0.35em] text-white/45">10 / Get in touch</p><h2 className="mt-5 text-[12vw] font-black uppercase leading-[0.78] tracking-[-0.08em] md:text-[5.8rem]">CONTACT INFO</h2><div className="mt-12 grid gap-5"><Contact href="https://www.linkedin.com/in/alisa-a-b337582ab" label="LinkedIn" value="linkedin.com/in/alisa-a-b337582ab" icon="in"/><Contact href="mailto:aliamiinquiries@gmail.com" label="Email" value="aliamiinquiries@gmail.com" icon="✉"/></div></div></div></section>
 </main>}
