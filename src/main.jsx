@@ -205,6 +205,51 @@ function Site(){const [softwareProgress,setSoftwareProgress]=useState(0),[skills
   </div>
 </section>
 <section id="old-portfolio-section" className="relative overflow-hidden px-5 pt-8 pb-10 md:px-12 md:pt-12 md:pb-14"><div className="relative mx-auto max-w-7xl"><a href="https://drive.google.com/drive/folders/1eJxQ1n1IL4IleNW6Bv7vhXjcJmW-WHA5?usp=drive_link" target="_blank" rel="noreferrer" className="group flex flex-col gap-5 border border-black bg-[#f4f1e9] px-6 py-6 shadow-[8px_8px_0_#111] transition-all duration-500 hover:-translate-y-1 md:flex-row md:items-center md:justify-between md:px-8"><div><div className="font-mono text-xs uppercase tracking-[0.35em] text-black/45">08 / Archive</div><h3 className="mt-3 text-3xl font-black uppercase leading-[0.9] tracking-[-0.06em] md:text-5xl">OLD PORTFOLIO</h3><p className="mt-3 text-base font-medium tracking-[-0.02em] text-black/60 md:text-lg">Earlier work archive available on Google Drive.</p></div><div className="inline-flex items-center gap-3 border border-black px-5 py-3 font-mono text-xs uppercase tracking-[0.25em] transition-colors group-hover:bg-black group-hover:text-[#f4f1e9]">Open Google Drive →</div></a></div></section>
+<section
+  id="reference-section"
+  className="relative overflow-hidden px-5 py-8 md:px-12 md:py-10"
+>
+  <div className="relative mx-auto max-w-7xl">
+    <a
+      href="https://drive.google.com/file/d/1v__IufIDtV75lHeev6J_h4evkHGtaS9w/view"
+      target="_blank"
+      rel="noreferrer"
+      className="group flex items-center justify-between border border-black bg-[#f4f1e9] px-8 py-6 shadow-[8px_8px_0_#111] transition-all duration-500 hover:-translate-y-1"
+    >
+      <div>
+        <div className="font-mono text-xs uppercase tracking-[0.35em] text-black/45">
+          11 / Professional Reference
+        </div>
+
+        <h3 className="mt-2 flex items-center gap-4 text-3xl font-black uppercase tracking-[-0.06em] md:text-5xl">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-10 w-10 shrink-0"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.8"
+          >
+            <path d="M7 3h7l5 5v13H7z"/>
+            <path d="M14 3v5h5"/>
+            <path d="M10 13h6"/>
+            <path d="M10 17h6"/>
+          </svg>
+
+          PROFESSIONAL REFERENCE
+        </h3>
+
+        <p className="mt-3 text-base text-black/60 md:text-lg">
+          Recommendation letter from my former employer.
+        </p>
+      </div>
+
+      <div className="border border-black px-5 py-3 font-mono text-xs uppercase tracking-[0.25em] transition-colors group-hover:bg-black group-hover:text-[#f4f1e9]">
+        View PDF →
+      </div>
+    </a>
+  </div>
+</section>
 <section id="languages-contact-section" className="relative overflow-hidden px-5 py-24 md:px-12 md:py-32"><div className="relative mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.9fr_1.1fr]"><div className="group relative overflow-hidden border border-black bg-[#f4f1e9] p-8 shadow-[10px_10px_0_#111] transition-transform duration-500 hover:-translate-y-1 md:p-10"><div className="absolute bottom-8 right-8 z-10 h-24 w-24 opacity-35 md:h-32 md:w-32"><Globe/></div><p className="font-mono text-xs uppercase tracking-[0.35em] text-black/55">09 / Languages</p><h2 className="mt-5 text-[10vw] font-black uppercase leading-[0.78] tracking-[-0.08em] md:text-[4.8rem] lg:text-[5.2rem]">LANGUAGES</h2><div className="mt-12 space-y-8 pr-0 md:pr-28"><div><h3 className="text-3xl font-black uppercase tracking-[-0.055em] md:text-4xl">English</h3><p className="mt-2 text-lg font-medium tracking-[-0.03em] text-black/60 md:text-xl">FLUENT</p></div><div className="h-px w-full bg-black/20"/><div><h3 className="text-3xl font-black uppercase tracking-[-0.055em] md:text-4xl">Russian</h3><p className="mt-2 text-lg font-medium tracking-[-0.03em] text-black/60 md:text-xl">Native / bilingual proficiency</p></div></div></div><div className="relative overflow-hidden border border-black bg-[#111] p-8 text-[#f4f1e9] shadow-[10px_10px_0_#f4f1e9] md:p-10"><p className="font-mono text-xs uppercase tracking-[0.35em] text-white/45">10 / Get in touch</p><h2 className="mt-5 text-[12vw] font-black uppercase leading-[0.78] tracking-[-0.08em] md:text-[5.8rem]">CONTACT INFO</h2><div className="mt-12 grid gap-5"><Contact href="https://www.linkedin.com/in/alisa-a-b337582ab" label="LinkedIn" value="linkedin.com/in/alisa-a-b337582ab" icon="in"/><Contact href="mailto:aliamiinquiries@gmail.com" label="Email" value="aliamiinquiries@gmail.com" icon="✉"/></div></div></div></section>
 </main>}
 function Experience({title,date,dark}){return <div className={`group relative overflow-hidden border border-black p-6 shadow-[10px_10px_0_#111] transition-all duration-500 hover:-translate-y-1 md:p-8 ${dark?'bg-[#111] text-[#f4f1e9] shadow-[10px_10px_0_#f4f1e9]':'bg-[#f4f1e9]'}`}><div className="absolute right-6 top-6 font-mono text-xs uppercase tracking-[0.35em] opacity-35">{date}</div><h3 className="text-3xl font-black uppercase tracking-[-0.06em] md:text-5xl">{title}</h3><p className="mt-2 text-xl font-semibold uppercase tracking-[0.04em] opacity-75 md:text-2xl">Motion Designer / 2D Animator</p><p className="mt-6 max-w-4xl text-base font-medium leading-relaxed opacity-65 md:text-lg">Creating cinematic mobile game advertising creatives with strong storytelling, animation rhythm and visual direction.</p></div>}
