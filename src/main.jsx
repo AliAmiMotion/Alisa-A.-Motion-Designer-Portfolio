@@ -211,7 +211,7 @@ function Site(){const [softwareProgress,setSoftwareProgress]=useState(0),[skills
 >
   <div className="relative mx-auto max-w-7xl">
     <a
-      href="https://drive.google.com/file/d/1v__IufIDtV75lHeev6J_h4evkHGtaS9w/view"
+      href="https://drive.google.com/file/d/16HrZK3AeI72DC2eSxjbIVWdEfaRmI_a1/view?usp=drive_link"
       target="_blank"
       rel="noreferrer"
       className="group flex items-center justify-between border border-black bg-[#f4f1e9] px-8 py-6 shadow-[8px_8px_0_#111] transition-all duration-500 hover:-translate-y-1"
